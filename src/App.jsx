@@ -1,8 +1,12 @@
 import { SideNavBar } from "./components/sideNavBar";
+import { DefaultMainPage } from "./components/defaultmainpage";
 function App() {
   return (
     <>
-      <SideNavBar />
+      <div className="flex flex-row bg-[#f9f9f9] min-h-screen">
+        <SideNavBar />
+        <DefaultMainPage />
+      </div>
     </>
   );
 }
